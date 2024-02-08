@@ -15,11 +15,11 @@
 .yes-btn {
     cursor: pointer;
     position: absolute;
-    top: 400px;
-    left: 300px;
-    height: 35px;
-    width: 65px;
-    border-radius: 15px;
+    top: 550px;
+    left: 35%;
+    height: 50px;
+    width: 85px;
+    border-radius: 25px;
 }
 
 .yes-btn:hover {
@@ -28,16 +28,16 @@
 
 .no-btn {
     position: absolute;
-    top: 400px;
-    left: 400px;
-    height: 35px;
-    width: 65px;
-    border-radius: 15px;
+    top: 550px;
+    right: 35%;
+    height: 50px;
+    width: 85px;
+    border-radius: 25px;
 }
 
 .gif-embed {
     border: none;
-    height: 280px;
-    width: 280px;
+    height: 380px;
+    width: 380px;
     align-self: center;
 }
