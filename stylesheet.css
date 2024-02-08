@@ -1,0 +1,12 @@
+#body {
+    background-color: lightpink;
+}
+
+.yes-btn {
+    cursor: pointer;
+}
+
+.no-btn {
+    position: absolute;
+    background-color: aqua;
+}
