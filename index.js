@@ -46,12 +46,8 @@ const acceptRequest = () => {
     body.removeChild(askingGif);
 
     const yayText = document.createElement('h1');
-    yayText.style.color = 'gray';
-    yayText.style.fontSize = '38px';
-    yayText.style.fontFamily = 'sans-serif';
-    yayText.style.fontWeight = 'bold';
-    yayText.style.textAlign = 'center';
-    yayText.innerHTML = 'Yay, pick you up at 8pm';
+    yayText.className = "yay-text";
+    yayText.innerHTML = "Yay! Can't wait to see you";
 
     const yayGif = document.createElement('img');
     yayGif.src = 'https://i.giphy.com/MeIucAjPKoA120R7sN.webp'

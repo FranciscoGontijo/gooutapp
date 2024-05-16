@@ -41,3 +41,11 @@
     width: 380px;
     align-self: center;
 }
+
+.yay-text {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    color: gray;
+}
