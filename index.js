@@ -2,15 +2,14 @@ const body = document.querySelector('#body');
 
 const title = document.createElement('h1');
 title.className = 'main-title';
-title.innerHTML = 'Wanna go out with me?';
+title.innerHTML = "Let's go out friday night?";
 
 body.appendChild(title);
 
 const askingGif = document.createElement('img');
 askingGif.src = 'https://i.giphy.com/XCm6aoloWyUkwUuqkf.webp'
 askingGif.className = 'gif-embed';
-//<div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/XCm6aoloWyUkwUuqkf" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/wiggle-vanlau-bunniekingdom-XCm6aoloWyUkwUuqkf">via GIPHY</a></p>
-//<iframe src="https://giphy.com/embed/XCm6aoloWyUkwUuqkf" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/wiggle-vanlau-bunniekingdom-XCm6aoloWyUkwUuqkf">via GIPHY</a></p>
+
 body.appendChild(askingGif);
 
 const yesButton = document.createElement('button');
